@@ -4,3 +4,17 @@ body {
     color: black;
     text-align: center;
 }
+
+.long-break {
+    padding: 20px 0px;
+}
+
+.explain {
+    margin: 0px 100px;
+}
+
+#time-stamp {
+    color: black;
+    font-style: italic;
+    padding: 10px;
+}
