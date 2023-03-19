@@ -18,3 +18,27 @@ body {
     font-style: italic;
     padding: 10px;
 }
+
+ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+a:focus {
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: blue;
+}

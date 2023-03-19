@@ -1,0 +1,17 @@
+1.1 planning to plan
+useful to define finite set of actions -> discrete set of states -> solution <- appropaite sequence of actions
+agent: anything which percieves its environemnt
+controller: descion maker (control theory ter)
+
+1.3 ingredients of planning:
+state space: captures all possible sitaations that can arise
+  - positon
+  - orintetion of robot
+  - locations
+  - discrete and continuous state space
+  
+time: timeframe over which a task should be compelted
+
+actions: inputs and controls. generated from a plna to manipulate the state.
+
+
