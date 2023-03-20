@@ -1,0 +1,32 @@
+{
+  "links": [
+    {
+      "title": "Advanced drive-assistance systems",
+      "url": "https://en.wikipedia.org/wiki/Advanced_driver-assistance_system"
+    },
+    {
+      "title": "Hacking a VW Golf Power Steering ECU",
+      "url": "https://blog.willemmelching.nl/carhacking/2022/01/02/vw-part1/"
+    },
+    {
+      "title": "Comma AI Vehicles",
+      "url": "https://comma.ai/vehicles#acura"
+    },
+    {
+      "title": "Learning a Driving Simulator",
+      "url": "https://arxiv.org/pdf/1608.01230.pdf"
+    },
+    {
+      "title": "Self-Driving Cars, Andrea Geiger",
+      "url": "https://www.youtube.com/playlist?list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr"
+    },
+    {
+      "title": "Cruise Control Anatomy",
+      "url": "https://hackaday.com/2021/07/08/tech-hidden-in-plain-sight-cruise-control/"
+    },
+    {
+      "title": "ORB Oriented",
+      "url": "https://medium.com/data-breach/introduction-to-orb-oriented-fast-and-rotated-brief-4220e8ec40cf"
+    }
+  ]
+}

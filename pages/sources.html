@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>AutoMind</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <script src="../assets/js/index.js"></script>
-
+  <meta charset="UTF-8">
+  <title>AutoMind</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/index.js"></script>
 </head>
 
 <body>
-    <h1>AutoMind</h1>
-    <p>Who said making self-driving cars was hard?</p>
-    <a href="../index.html">Home</a>
-    <a href="log.html">Logging</a>
+  <h1>AutoMind</h1>
+  <p>Who said making self-driving cars was hard?</p>
+  <a href="../index.html">Home</a>
+  <a href="log.html">Logging</a>
 
-    <h3> Source </h3>
-    <ul>
-      <li> <a href="https://en.wikipedia.org/wiki/Advanced_driver-assistance_system"> Adavanced drive-assistance system </a> </li>
-      <li> <a href="https://blog.willemmelching.nl/carhacking/2022/01/02/vw-part1/" > Hacking a VW Golf Power Steering ECU</a></li>
-      <li> <a href="https://comma.ai/vehicles#acura" > Comma AI Vehicles</a></li>
-      <li> <a href="https://arxiv.org/pdf/1608.01230.pdf" > Learning a Driving Simulator </a></li>
-      <li> <a href="https://www.youtube.com/playlist?list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr" > Self-Driving Cars, Andrea Geiger</a></li>
-      <li> <a href="https://hackaday.com/2021/07/08/tech-hidden-in-plain-sight-cruise-control/" > Cruise Control Anatomy</a></li>
-    </ul>
+  <h3> Source </h3>
+  <ul id="source-list">
+
+  </ul>
+  <script>
+    const linkList = document.getElementById('source-list');
+    fetch("../sources.json")
+      .then(response => response.json())
+      .then(data => {
+        for (let i = 0; i < data.links.length; i++) {
+          const linkItem = document.createElement('li');
+          const linkAnchor = document.createElement('a');
+          linkAnchor.innerText = data.links[i].title
+          linkItem.appendChild(linkAnchor)
+          linkList.appendChild(linkItem)
+        }
+      })
+  </script>
 </body>
 
 </html
