@@ -6,8 +6,8 @@ import sys
 import sdl2
 import sdl2.ext
 
-W = np.floor_divide(1920, 2)
-H = np.floor_divide(1080, 2)
+W = np.floor_divide(1920, 1)
+H = np.floor_divide(1080, 1)
 
 sdl2.ext.init()
 
