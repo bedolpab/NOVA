@@ -29,6 +29,7 @@
           const linkItem = document.createElement('li');
           const linkAnchor = document.createElement('a');
           linkAnchor.innerText = data.links[i].title
+          linkAnchor.href = data.links[i].url
           linkItem.appendChild(linkAnchor)
           linkList.appendChild(linkItem)
         }
