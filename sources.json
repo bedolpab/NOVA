@@ -43,6 +43,66 @@
     {
       "title": "Planing Algorithms",
       "url": "http://lavalle.pl/planning/"
+    },
+    {
+      "title": "Directional Derivatives",
+      "url": "https://www.youtube.com/watch?v=GJODOGq7cAY&t=325s"
+    },
+    {
+      "title": "Introduction to CNN",
+      "url": "https://cs.nju.edu.cn/wujx/paper/CNN.pdf"
+    },
+    {
+      "title": "The basics of the CAN bus",
+      "url": "https://www.youtube.com/watch?v=cAAzXM5vsi0"
+    },
+    {
+      "title": "Gradient Descent",
+      "url": "https://users.cs.utah.edu/~jeffp/IDABook/T6-GD.pdf"
+    },
+    {
+      "title": "Group Equivariant Deep Learning",
+      "url": "https://www.youtube.com/playlist?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd"
+    },
+    {
+      "title": "Linear Transformations",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+    },
+    {
+      "title": "Multlayer Perceptrons",
+      "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L05%20Multilayer%20Perceptrons.pdf"
+    },
+    {
+      "titiel": "Linear Classification",
+      "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L03%20Linear%20Classifiers.pdf"
+    },
+    {
+      "title": "Linear Algebra Cheat sheet for DL",
+      "url": " https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c"
+    },
+    {
+      "title": "Introduction to Supervised Learnning",
+      "url": "https://people.cs.umass.edu/~elm/Teaching/Docs/supervised2014a.pdf"
+    },
+    {
+      "title": "Motion Inspired Unsupervised Perception and Prediction in Autonomous Driving",
+      "url": "https://waymo.com/research/motion-inspired-unsupervised-perception-and-prediction-in-autonomous-driving/"
+    },
+    {
+      "title": "Car Hacking, Miller & Valasek",
+      "url": "https://illmatics.com/carhacking.html"
+    },
+    {
+      "title": "Computer Vision for AV: Problems, Datsets, and State of the Art",
+      "url": "https://arxiv.org/pdf/1704.05519.pdf"
+    },
+    {
+      "title": "Universitat Tübingen, Autonomous Vision, Self-Driving Cars",
+      "url": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/"
+    },
+    {
+      "title": "Hacking into a Vehicle CAN bus",
+      "url": "https://fabiobaltieri.com/2013/07/23/hacking-into-a-vehicle-can-bus-toyothack-and-socketcan/"
     }
   ]
 }
