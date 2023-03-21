@@ -103,6 +103,10 @@
     {
       "title": "Hacking into a Vehicle CAN bus",
       "url": "https://fabiobaltieri.com/2013/07/23/hacking-into-a-vehicle-can-bus-toyothack-and-socketcan/"
+    },
+    {
+      "title": "Overview of CAN Bus Protocol",
+      "url": "https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170"
     }
   ]
 }
