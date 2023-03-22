@@ -13,13 +13,24 @@ body {
     background-color: var(--dk-blue);
     color: var(--wh-gray);
     margin: auto;
-    padding: 100px;
+    padding: 50px;
 }
 
-.head h1,
-p {
+.head * {
     margin: 0px;
     padding: 0px;
+}
+
+.head .button {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    color: var(--wh-gray)
+}
+
+.head img {
+    height: 30px;
 }
 
 /* List */
@@ -53,6 +64,10 @@ a:focus {
 
 a:visited {
     background-color: var(--md-blue);
+}
+
+.description {
+    padding: 10px;
 }
 
 .log-container {
