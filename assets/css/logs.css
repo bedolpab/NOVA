@@ -1,4 +1,56 @@
-@import 'variables.css'
+@import 'variables.css';
+
+body {
+    background-color: var(--lg-gray);
+    color: #212923;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* List */
+.nav {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 200px;
+    margin-bottom: 10px;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav li a {
+    color: var(--wh-gray);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--black);
+    background-color: var(--md-blue);
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+a:visited {
+    background-color: var(--md-blue);
+}
+
+.log-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--md-blue);
+    color: var(--wh-gray);
+    margin: 0px;
+    padding: 10px;
+}
 
 /*
 * Structure
