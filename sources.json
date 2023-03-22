@@ -1,112 +1,176 @@
 {
-  "links": [
-    {
-      "title": "Advanced drive-assistance systems",
-      "url": "https://en.wikipedia.org/wiki/Advanced_driver-assistance_system"
-    },
-    {
-      "title": "Hacking a VW Golf Power Steering ECU",
-      "url": "https://blog.willemmelching.nl/carhacking/2022/01/02/vw-part1/"
-    },
-    {
-      "title": "Comma AI Vehicles",
-      "url": "https://comma.ai/vehicles#acura"
-    },
-    {
-      "title": "Learning a Driving Simulator",
-      "url": "https://arxiv.org/pdf/1608.01230.pdf"
-    },
-    {
-      "title": "Self-Driving Cars, Andrea Geiger",
-      "url": "https://www.youtube.com/playlist?list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr"
-    },
-    {
-      "title": "Cruise Control Anatomy",
-      "url": "https://hackaday.com/2021/07/08/tech-hidden-in-plain-sight-cruise-control/"
-    },
-    {
-      "title": "ORB Oriented",
-      "url": "https://medium.com/data-breach/introduction-to-orb-oriented-fast-and-rotated-brief-4220e8ec40cf"
-    },
-    {
-      "title": "Features from accelerated segment test",
-      "url": "https://en.wikipedia.org/wiki/Features_from_accelerated_segment_test"
-    },
-    {
-      "title": "ORB",
-      "url": "https://docs.opencv.org/4.x/d1/d89/tutorial_py_orb.html"
-    },
-    {
-      "title": "Corner Detection | Edge Detection",
-      "url": "https://www.youtube.com/watch?v=Z_HwkG90Yvw&t=337s"
-    },
-    {
-      "title": "Planing Algorithms",
-      "url": "http://lavalle.pl/planning/"
-    },
-    {
-      "title": "Directional Derivatives",
-      "url": "https://www.youtube.com/watch?v=GJODOGq7cAY&t=325s"
-    },
-    {
-      "title": "Introduction to CNN",
-      "url": "https://cs.nju.edu.cn/wujx/paper/CNN.pdf"
-    },
-    {
-      "title": "The basics of the CAN bus",
-      "url": "https://www.youtube.com/watch?v=cAAzXM5vsi0"
-    },
-    {
-      "title": "Gradient Descent",
-      "url": "https://users.cs.utah.edu/~jeffp/IDABook/T6-GD.pdf"
-    },
-    {
-      "title": "Group Equivariant Deep Learning",
-      "url": "https://www.youtube.com/playlist?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd"
-    },
-    {
-      "title": "Linear Transformations",
-      "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
-    },
-    {
-      "title": "Multlayer Perceptrons",
-      "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L05%20Multilayer%20Perceptrons.pdf"
-    },
-    {
-      "titiel": "Linear Classification",
-      "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L03%20Linear%20Classifiers.pdf"
-    },
-    {
-      "title": "Linear Algebra Cheat sheet for DL",
-      "url": " https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c"
-    },
-    {
-      "title": "Introduction to Supervised Learnning",
-      "url": "https://people.cs.umass.edu/~elm/Teaching/Docs/supervised2014a.pdf"
-    },
-    {
-      "title": "Motion Inspired Unsupervised Perception and Prediction in Autonomous Driving",
-      "url": "https://waymo.com/research/motion-inspired-unsupervised-perception-and-prediction-in-autonomous-driving/"
-    },
-    {
-      "title": "Car Hacking, Miller & Valasek",
-      "url": "https://illmatics.com/carhacking.html"
-    },
-    {
-      "title": "Computer Vision for AV: Problems, Datsets, and State of the Art",
-      "url": "https://arxiv.org/pdf/1704.05519.pdf"
-    },
-    {
-      "title": "Universitat Tübingen, Autonomous Vision, Self-Driving Cars",
-      "url": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/"
-    },
-    {
-      "title": "Hacking into a Vehicle CAN bus",
-      "url": "https://fabiobaltieri.com/2013/07/23/hacking-into-a-vehicle-can-bus-toyothack-and-socketcan/"
-    },
-    {
-      "title": "Overview of CAN Bus Protocol",
-      "url": "https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170"
-    }
-  ]
+    "Automotive": [
+        {
+            "Abstract Topics": [
+                {
+                    "title": "Abstract Driver-Assisted System",
+                    "goal": "General overview of how modern cars use automated assistance",
+                    "url": "https://en.wikipedia.org/wiki/Advanced_driver-assistance_system"
+                },
+                {
+                    "title": "Cruise Control Anatomy",
+                    "goal": "Understanding of how to remote control car speed and its anatomy.",
+                    "urL": "https://hackaday.com/2021/07/08/tech-hidden-in-plain-sight-cruise-control/"
+                }
+            ],
+            "Vehicle Hacking": [
+                {
+                    "title": "Hacking a VW Golf Power Steering ECU",
+                    "goal": "Application of car hacking",
+                    "url": "https://blog.willemmelching.nl/carhacking/2022/01/02/vw-part1/"
+                },
+                {
+                    "title": "Car Hacking, Miller & Valasek",
+                    "goal": "Low-level end side of things and deep dive into vehicle exploiting",
+                    "url": "https://illmatics.com/carhacking.html"
+                },
+                {
+                    "title": "Hacking into a Vehicle CAN bus",
+                    "goal": "Low-level end side of things and deep dive into vehicle exploiting",
+                    "url": "https://fabiobaltieri.com/2013/07/23/hacking-into-a-vehicle-can-bus-toyothack-and-socketcan/"
+                }
+            ],
+            "Embbeded Systems for Cars": [
+                {
+                    "title": "The basics of the CAN bus",
+                    "goal": "Understanding the embedded architecture of a cars network.",
+                    "url": "https://www.youtube.com/watch?v=cAAzXM5vsi0"
+                },
+                {
+                    "title": "Overview of CAN Bus Protocol",
+                    "goal": "Overview of the embedded architecture of a cars network.",
+                    "url": "https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170"
+                }
+            ]
+        }
+    ],
+    "Mathematics": [
+        {
+            "Linear Algebra": [
+                {
+                    "title": "Linear Algebra Cheat sheet for DL",
+                    "goal": "Cheat sheet",
+                    "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c"
+                },
+                {
+                    "title": "Linear Transformations",
+                    "goal": "Understanding matrix and vector manipulation",
+                    "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+                }
+            ],
+            "Deep Learning Mathematics": [
+                {
+                    "title": "Directional Derivatives",
+                    "goal": "Prerequisite for Gradient Descent",
+                    "url": "https://www.youtube.com/watch?v=GJODOGq7cAY&t=325s"
+                },
+                {
+                    "title": "Gradient Descent",
+                    "goal": "Prerequisite for optimization",
+                    "url": "https://users.cs.utah.edu/~jeffp/IDABook/T6-GD.pdf"
+                },
+                {
+                    "title": "Group Equivariant Deep Learning",
+                    "goal": "Understading possible errors in object detection",
+                    "url": "https://www.youtube.com/playlist?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd"
+                },
+                {
+                    "title": "Linear Classification",
+                    "goal": "Learing to build classifiers",
+                    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L03%20Linear%20Classifiers.pdf"
+                },
+                {
+                    "title": "Multilayer Perceptrons",
+                    "goal": "Understanding how multi-layer neural networks function",
+                    "url": "https://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/readings/L05%20Multilayer%20Perceptrons.pdf"
+                }
+            ]
+        }
+    ],
+    "Concepts": [
+        {
+            "Computer Vision": [
+                {
+                    "title": "Corner Detection, Edge Detection",
+                    "goal": "Prerequisite",
+                    "url": "https://www.youtube.com/watch?v=Z_HwkG90Yvw&t=337s"
+                },
+                {
+                    "title": "ORB",
+                    "goal": "Algorithm for a feature detection",
+                    "url": "https://docs.opencv.org/4.x/d1/d89/tutorial_py_orb.html"
+                },
+                {
+                    "title": "ORB Oriented",
+                    "goal": "Algorithm for a feature detection",
+                    "url": "https://medium.com/data-breach/introduction-to-orb-oriented-fast-and-rotated-brief-4220e8ec40cf"
+                },
+                {
+                    "title": "Features from accelerated segment test",
+                    "goal": "Follow up for ORB",
+                    "url": "https://en.wikipedia.org/wiki/Features_from_accelerated_segment_test"
+                }
+            ],
+            "Deep Learing": [
+                {
+                    "title": "Deep Learing, Ian Goodfellow",
+                    "goal": "You must read chapters 1-9 fully. 1-5 are mathematic prerequisites. 6-9 focus on teaching you how to work with DLNN.",
+                    "url": "https://www.deeplearningbook.org/"
+                },
+                {
+                    "title": "Introduction to CNN",
+                    "goal": "Understanding CNN in detail (mathematically & abstractly)",
+                    "url": "https://cs.nju.edu.cn/wujx/paper/CNN.pdf"
+                },
+                {
+                    "title": "Introduction to Supervised Learnning",
+                    "goal": "Prerequisite for computer vision applied DL.",
+                    "url": "https://people.cs.umass.edu/~elm/Teaching/Docs/supervised2014a.pdf"
+                }
+            ],
+            "Autonomous Vehicles": [
+                {
+                    "title": "Comma AI Vehicles",
+                    "goal": "",
+                    "url": "https://comma.ai/vehicles#acura"
+                },
+                {
+                    "title": "Learning a Driving Simulator",
+                    "goal": "",
+                    "url": "https://arxiv.org/pdf/1608.01230.pdf"
+                },
+                {
+                    "title": "Self-Driving Cars, Andrea Geiger",
+                    "goal": "",
+                    "url": "https://www.youtube.com/playlist?list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr"
+                },
+                {
+                    "title": "Motion Inspired Unsupervised Perception and Prediction in Autonomous Driving",
+                    "goal": "",
+                    "url": "https://waymo.com/research/motion-inspired-unsupervised-perception-and-prediction-in-autonomous-driving/"
+                },
+                {
+                    "title": "Computer Vision for AV: Problems, Datsets, and State of the Art",
+                    "goal": "",
+                    "url": "https://arxiv.org/pdf/1704.05519.pdf"
+                },
+                {
+                    "title": "Universitat Tübingen, Autonomous Vision, Self-Driving Cars",
+                    "goal": "",
+                    "url": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/"
+                }
+            ]
+        }
+    ],
+    "Relevant": [
+        {
+            "Robotics": [
+                {
+                    "title": "Planing Algorithms",
+                    "goal": "",
+                    "url": "http://lavalle.pl/planning/"
+                }
+            ]
+        }
+    ]
 }

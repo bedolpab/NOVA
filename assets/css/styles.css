@@ -1,38 +1,44 @@
+:root {
+  --black: #000000;
+  --dk-blue: #212930;
+  --md-blue: #414B56;
+  --gray: #868F98;
+  --md-gray: #A8ADB4;
+  --lg-gray: #C3C8CD;
+  --wh-gray: #D2D6D9;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: black;
-    text-align: center;
-}
-
-.long-break {
-    padding: 20px 0px;
-}
-
-.explain {
-    margin: 0px 100px;
-}
-
-#time-stamp {
-    color: black;
-    font-style: italic;
-    padding: 10px;
-}
-
-ul {
-  list-style-type: none;
-  display: inline;
-  margin: 0 auto;
+  background-color: var(--wh-gray);
+  color: #212923;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  color: black;
+/* List */
+.nav {
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0 100px;
+  /* Removes default padding from the list */
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav li a {
+  color: var(--wh-gray);
+  text-decoration: none;
 }
 
 a:hover {
-  color: white;
-  background-color: black;
+  color: var(--black);
+  background-color: var(--md-blue);
 }
 
 a:focus {
@@ -40,5 +46,5 @@ a:focus {
 }
 
 a:visited {
-  text-decoration: blue;
+  background-color: var(--md-blue);
 }

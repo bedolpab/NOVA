@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>AutoMind | Prerequisites</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/index.js"></script>
+</head>
+
+<body>
+  <h1>AutoMind</h1>
+  <ul class="nav">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="log.html">Log</a></li>
+    <li><a href="team.html">Team</a></li>
+  </ul>
+
+  <div id="source-list">
+    <!-- ACADEMIC SOURCES TO LEARN-->
+  </div>
+
+  <script>
+    const linkList = document.getElementById('source-list');
+    // Fetch the JSON file
+    fetch("../sources.json")
+      .then(response => response.json())
+      .then(data => {
+        for (let [key, value] of Object.entries(data)) {
+          const mainCardContainer = document.createElement('div')
+          mainCardContainer.classList.add("main-card")
+
+          // Main card header data + tag
+          const mc_header = document.createElement('h2')
+          mc_header.textContent = key
+
+          mainCardContainer.appendChild(mc_header)
+
+
+          // Sub-Card values
+          for (let [mc_key, mc_val] of Object.entries(value)) {
+            for (let [sc_key, sc_val] of Object.entries(mc_val)) {
+
+              const subCardContainer = document.createElement('div')
+              subCardContainer.classList.add("sub-card")
+
+              const sc_header = document.createElement('h3')
+              sc_header.textContent = sc_key
+              subCardContainer.appendChild(sc_header)
+              mainCardContainer.appendChild(subCardContainer)
+
+              for (let [cc_key, cc_val] of Object.entries(sc_val)) {
+                const childCardContainer = document.createElement('a')
+                childCardContainer.classList.add("child-card")
+
+                const childCardInnerContainer = document.createElement('div')
+                const cc_header = document.createElement('h4')
+                const cc_body = document.createElement('p')
+
+                childCardContainer.href = cc_val['url']
+                cc_header.textContent = cc_val['title']
+                cc_body.innerText = cc_val['goal']
+
+                childCardContainer.appendChild(childCardInnerContainer)
+                childCardInnerContainer.appendChild(cc_header)
+                childCardInnerContainer.appendChild(cc_body)
+                subCardContainer.appendChild(childCardContainer)
+              }
+            }
+          }
+
+          document.body.appendChild(mainCardContainer)
+        }
+      }).catch(error => {
+        console.error(error);
+      });
+  </script>
+</body>
+
+</html
