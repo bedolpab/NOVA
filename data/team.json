@@ -1,0 +1,36 @@
+{
+    "team": [
+        {
+            "name": "Pablo Cesar Bedolla Ortiz",
+            "major": "Mathematics and Computer Science",
+            "university": "Dominican University",
+            "links": [
+                {
+                    "site": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/bedolpab/"
+                },
+                {
+                    "site": "Github",
+                    "url": "https://github.com/bedolpab"
+                }
+            ],
+            "role": "Co-Founder & Lead Engineer"
+        },
+        {
+            "name": "Julio Rodriguez",
+            "major": "Computer Science",
+            "university": "Dominican University",
+            "links": [
+                {
+                    "site": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/#/"
+                },
+                {
+                    "site": "Github",
+                    "url": "https://github.com/JulioRdgz"
+                }
+            ],
+            "role": "Co-Founder & Lead Engineer"
+        }
+    ]
+}

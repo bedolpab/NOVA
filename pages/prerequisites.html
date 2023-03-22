@@ -16,14 +16,10 @@
     <li><a href="team.html">Team</a></li>
   </ul>
 
-  <div id="source-list">
-    <!-- ACADEMIC SOURCES TO LEARN-->
-  </div>
 
   <script>
-    const linkList = document.getElementById('source-list');
     // Fetch the JSON file
-    fetch("../sources.json")
+    fetch("../data/sources.json")
       .then(response => response.json())
       .then(data => {
         for (let [key, value] of Object.entries(data)) {
