@@ -34,6 +34,7 @@ def get_frame(frame):
 
     # cv2.imshow('frame', img)
     print(img)
+    print(f'size: {img.shape}')
 
 def show_mp4(file):
     cap = cv2.VideoCapture(file)
