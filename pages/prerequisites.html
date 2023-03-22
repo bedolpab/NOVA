@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>AutoMind | Prerequisites</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/prerequisites.css">
   <script src="../assets/js/index.js"></script>
 </head>
 
@@ -12,10 +12,15 @@
   <h1>AutoMind</h1>
   <ul class="nav">
     <li><a href="../index.html">Home</a></li>
-    <li><a href="log.html">Log</a></li>
-    <li><a href="team.html">Team</a></li>
+
+    <li><a href="./log.html">Log</a></li>
+    <li><a href="./prerequisites.html">Prerequisites</a></li>
+    <li><a href="./team.html">Team</a></li>
   </ul>
 
+  <p class="preq">We enforce you to read & learn from all the following sources below. Sources have been divided into
+    categories and sub categories for ease. Please complete the following below if you are interested in joining the
+    team.</p>
 
   <script>
     // Fetch the JSON file
@@ -48,6 +53,7 @@
               for (let [cc_key, cc_val] of Object.entries(sc_val)) {
                 const childCardContainer = document.createElement('a')
                 childCardContainer.classList.add("child-card")
+                childCardContainer.setAttribute('target', '_blank')
 
                 const childCardInnerContainer = document.createElement('div')
                 const cc_header = document.createElement('h4')
