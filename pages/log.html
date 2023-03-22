@@ -18,6 +18,41 @@
   </ul>
 
   <script>
+    const log_entry = document.createElement("div");
+    log_entry.classList.add("log-container")
+    fetch("../data/log.json")
+      .then(request => request.json())
+      .then(data => {
+        for (let i = 0; i < data['logs'].length; i++) {
+          const log_title = document.createElement('h2')
+          log_title.textContent = data['logs'][i]['title']
+
+          const log_summary = document.createElement('p')
+          log_summary.innerText = data['logs'][i]['summary']
+
+          const log_path = data['logs'][i]['path'].split("/")
+          const path = data['logs'][i]['path']
+
+          // Append
+          log_entry.appendChild(log_title)
+          log_entry.appendChild(log_summary)
+
+          if (!log_path.includes("img")) {
+            console.log("No image")
+            const video = documet.createElement("video")
+            video.src = path
+            log_entry.appendChild(video)
+          }
+          else {
+            const image = document.createElement('image')
+            image.src = path
+            log_entry.appendChild(image)
+          }
+          document.body.appendChild(log_entry)
+        }
+      }).catch(error => {
+        console.error(error);
+      })
   </script>
 </body>
 
