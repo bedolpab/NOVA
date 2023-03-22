@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>AutoMind | Log</title>
+    <title>AutoMind | Team</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <script src="../assets/js/index.js"></script>
@@ -38,13 +38,14 @@
                     memberMajor.innerText = data['team'][i]['major']
                     memberUni.innerText = data['team'][i]['university']
                     memberRole.innerText = data['team'][i]['role']
+
                     for (let j = 0; j < data['team'][i]['links'].length; j++) {
                         const memberLink = document.createElement('li')
                         const memberURL = document.createElement('a')
                         memberURL.href = data['team'][i]['links'][j]['url']
                         memberURL.text = data['team'][i]['links'][j]['site']
                         memberLink.appendChild(memberURL)
-                        memberRole.appendChild(memberLink)
+                        memberLinks.appendChild(memberLink)
                     }
 
                     memberCard.appendChild(memberName)

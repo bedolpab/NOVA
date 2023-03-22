@@ -1,0 +1,13 @@
+@import 'variables.css'
+
+/*
+* Structure
+* --------------- *
+* Main Card [div]
+* * h2
+* * Sub Card [div]
+* * * h3
+* * * Child Card [a]
+* * * * [div]
+* * * * * h4 -> p 
+*/
