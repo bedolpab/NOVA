@@ -41,6 +41,13 @@
                     "goal": "Overview of the embedded architecture of a cars network.",
                     "url": "https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170"
                 }
+            ],
+            "Relevant": [
+                {
+                    "title": "Power-Steering Control Architecture for Automatic Driving",
+                    "goal": "Understanding anatomy of important car sections for potential hacking",
+                    "url": "https://www.researchgate.net/publication/220109328_Power-Steering_Control_Architecture_for_Automatic_Driving"
+                }
             ]
         }
     ],
@@ -56,6 +63,13 @@
                     "title": "Linear Transformations",
                     "goal": "Understanding matrix and vector manipulation",
                     "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+                }
+            ],
+            "Math for Machine Learning": [
+                {
+                    "title": "Math for Machine Learning",
+                    "goal": "A Short Guided Tour on Linear Algebra and Probability Theory (Prof. Andreas Geiger, University of Tübingen). You MUST complete this course and be able to understand the topics explained in it.",
+                    "url": "https://www.youtube.com/playlist?list=PL05umP7R6ij0bo4UtMdzEJ6TiLOqj4ZCm"
                 }
             ],
             "Deep Learning Mathematics": [
@@ -169,6 +183,13 @@
                     "title": "Planing Algorithms",
                     "goal": "",
                     "url": "http://lavalle.pl/planning/"
+                }
+            ],
+            "Machine Learing": [
+                {
+                    "title": "Reinforcement Learning",
+                    "goal": "Introduction to reinforcement learning. Must have a basic understanding of the subject",
+                    "url": "http://www.incompleteideas.net/book/ebook/node7.html"
                 }
             ]
         }
