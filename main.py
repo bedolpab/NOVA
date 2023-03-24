@@ -14,12 +14,11 @@ sdl2.ext.init()
 window = sdl2.ext.Window("Frame", size=(W, H))
 window.show()
 
-
 def get_frame(frame):
     
     # Resize
     img = cv2.resize(frame, (W, H), cv2.INTER_AREA)
-    
+
     # Exit
     events = sdl2.ext.get_events()
     for event in events:
