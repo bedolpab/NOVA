@@ -2,9 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+video.hevc
 # C extensions
 *.so
+*.hevc
+data/
 
 # Distribution / packaging
 .Python
