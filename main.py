@@ -3,8 +3,14 @@ import cv2
 import numpy as np
 import sys
 
+(874, 1164, 3)
+W = 874
+H = 1164
+C = 3
+
 def read_frame(frame):
-    cv2.imshow('Frame', frame)
+    img = cv2.resize(frame, (W//2, H//4), interpolation=cv2.INTER_AREA)
+    cv2.imshow('Frame', img)
     print(frame.shape)
 
 def show_mp4(file):
@@ -27,6 +33,7 @@ def show_mp4(file):
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
+
     # Model Architecture
     # --------------------
     # INPUT
