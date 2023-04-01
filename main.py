@@ -11,31 +11,26 @@ W = 874
 H = 1164
 C = 3
 
+if __name__ == '__main__':
 
-def read_frame(frame):
-    img = cv2.resize(frame, (W//2, H//4), interpolation=cv2.INTER_AREA)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))
-
-    ax1.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-    ax1.set_title("Frame")
-
-    ax2.hist(gray.ravel(), bins=256, range=(0, 256))
-    ax2.set_title("Frame hist")
-    print(img.shape)
-    plt.pause(1)
-
-def show_mp4(file):
+    file = 'video.hevc'
     cap = cv2.VideoCapture(file)
     if(cap.isOpened() == False):
         print("file error")
-
+    
+    fig, ax = plt.subplots(1, 2)
     while(cap.isOpened()):
+        # Read frame
         ret, frame = cap.read()
 
         if ret == True:
-            read_frame(frame)
-            
+             # Resize frame
+            img = cv2.resize(frame, (W//2, H//4), interpolation=cv2.INTER_AREA)
+            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+            ax[0].imshow(img)
+            ax[1].imshow(img)
+            plt.pause(0.01)
+            # Quit key
             if cv2.waitKey(10) & 0xFF == ord('q'):
                 break
         else:
@@ -44,20 +39,4 @@ def show_mp4(file):
     cap.release()
     cv2.destroyAllWindows()
 
-if __name__ == '__main__':
-
-    # Model Architecture
-    # --------------------
-    # INPUT
-    # Get input from video
-    file = 'video.hevc'
-    
-    show_mp4(file)    
-    # Previous Frame (3, 128, 256)
-
-    # Current Frame (3, 128, 256)
-    
-    # Concat BOTH images --> (6, 128, 256)
-
-    # APPLY EFFICIENTNET-B2
 
