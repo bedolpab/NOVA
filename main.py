@@ -11,7 +11,7 @@ C = 3
 def read_frame(frame):
     img = cv2.resize(frame, (W//2, H//4), interpolation=cv2.INTER_AREA)
     cv2.imshow('Frame', img)
-    print(frame.shape)
+    print(img.shape)
 
 def show_mp4(file):
     cap = cv2.VideoCapture(file)
