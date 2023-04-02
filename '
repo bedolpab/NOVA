@@ -26,7 +26,6 @@ if __name__ == '__main__':
 
         if ret == True:
              # Resize frame
-            W, H = frame.shape[:2]
             img = cv2.resize(frame, (W//2, H//4), interpolation=cv2.INTER_AREA)
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             
@@ -34,7 +33,6 @@ if __name__ == '__main__':
             ax[0].imshow(img)
 
             # Ax2
-            # CALIBRATION
             ax[1].imshow(img)
             plt.pause(0.01)
             # Quit key
