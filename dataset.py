@@ -57,15 +57,18 @@ class Dataset():
         plt.show()
 
     def play_video(self):
+        fig, ax = plt.subplots(1, 2)
         for i in range(len(self.frame_reader.frames)):
             frame = self.frame_reader.frames[i]
-            print(self.frame_data(frame, i))
-            plt.imshow(frame)
-            plt.pause(0.0001)
+
+            ax[0].imshow(frame)
+            ax[1].plot(self.positions[i])
+            # print(self.frame_data(frame, i))
+            plt.pause(0.01)
 
 
 if __name__ == "__main__":
-    test_path = "data/set-1/4/"
+    test_path = "data/set-1/5/"
     data = Dataset(test_path)
-    data.play_video()
-    
+    meta = data.frame_reader.frames[0]
+    print(data.positions)
